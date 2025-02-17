@@ -3,3 +3,4 @@
 newvenv/
 venv/
 __pycache__/
+restaurant/__pycache__/
