@@ -10,7 +10,5 @@ then
   python manage.py createsuperuser --no-input
 fi
 
-mkdir -p staticfiles
-
 python manage.py collectstatic --no-input
 python manage.py migrate
